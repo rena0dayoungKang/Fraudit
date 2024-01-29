@@ -18,8 +18,21 @@ EX3) <br>
 **차변1억초과빈도.tbl <br>
 step1. 분개장에서 filter() 함수 사용하여 차변합계가 1억초과인 레코드 빈도 summarize, 일자컬럼 ascending 후 index추가 <br> 
 **분개장예제_상세.tbl <br>
-step2. 원래의 분개장에서 전표번호, 전표일자 별로 group 
+step2. 원래의 분개장에서 전표번호, 전표일자 별로 group <br>
 step3. 차변1억초과빈도.tbl에서 빈도가 1이상인 건들을 분개장예제_상세에서 상세조회<br>
 ![image](https://github.com/rena0dayoungKang/Fraudit/assets/127266915/89d585b8-fa11-4a1b-9249-0da9ca857ef9)
 ![image](https://github.com/rena0dayoungKang/Fraudit/assets/127266915/27345638-de81-44af-9c46-a768cf08c95b)
+<br>
+<br>
+<br>
+*계정과목빈도.tbl <br>
+[분개장에서 계정과목이 모두 동일한 전표 파악]<br>
+전표에 모든 계정과목이 동일한 경우는 흔하지 않음<br>
+계정코드로 UniqueCount  이용하여 빈도 확인, 계정과목빈도_중복제외 칼럼에서 1인것들을 추가분석<br>
+![image](https://github.com/rena0dayoungKang/Fraudit/assets/127266915/50294a78-8600-4e15-9156-eb64a7064b5d)
+![image](https://github.com/rena0dayoungKang/Fraudit/assets/127266915/a3e7a9a6-a962-4fdd-b8b9-140996ec5944)
+![image](https://github.com/rena0dayoungKang/Fraudit/assets/127266915/12392bbc-ec77-4d7f-a2a6-1fa152cb70c6)
+
+<br>
+
 
