@@ -71,6 +71,11 @@ step6. 발췌 tbl에서 거래처로 구분하는 group을 따로 생성 하고 
 EX9) <br>
 [차변 또는 대변금액 중 백만단위 이하가 0인 거래 파악]<br>
 부가가치세 등의 이유로 거래금액의 백만단위 이하가 모두 0 인 경우는 흔하지 않다<br>
+분개장에서 전표일자,전표번호로 group 한 분개장_상세 만들기 <br>
+분개장에서 filter() 함수 사용 하여 차변백만단위 0 빈도 테이블 따로 생성 <br>
+index번호 추가 후 해당 빈도수 컬럼을 기준으로 descending 하고 index번호로 분개장_상세에서 해당 거래를 파악 <br>
+![image](https://github.com/rena0dayoungKang/Fraudit/assets/127266915/b8c654c9-47cc-470c-99d3-b8fe1bdf34be)
+![image](https://github.com/rena0dayoungKang/Fraudit/assets/127266915/1730f604-9914-44e6-970c-e72899afb6d4)
 
 
 
